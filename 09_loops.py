@@ -3,22 +3,22 @@
 # While
 
 my_condition=0
-while my_condition<10:                                                  #while es como un if pero se repite indefinidamente hasta que la condicion ya no se cumpla
+while my_condition<10:                                                  #*while es como un if pero se repite indefinidamente hasta que la condicion ya no se cumpla
     print(my_condition)
     my_condition += 2                                                   #con +=2 se le suma dos a my_condition en cada paso del loop
 else:                                                                   #else se ejecuta si la condicion inicial no se cumple
     print(10)
 
 while my_condition<20:                                                  
-    my_condition+=1                                                     #con +=1 se le suma uno a my_condition en cada paso del loop
-    if my_condition ==15:                                               #se pueden agregar condiciones intermedias en el while
+    my_condition+=1                                                     #*con +=1 se le suma uno a my_condition en cada paso del loop
+    if my_condition ==15:                                               #*se pueden agregar condiciones intermedias en el while
         print("Mi condicion es igual a 15 y se detiene la ejecucion")
-        break                                                           #break sirve para detener el loop completo en el momento
-                                                                        #que se cumple una condicion intermedia-->if<--
+        break                                                           #*break sirve para detener el loop completo en el momento que se cumple una condicion intermedia-->if<--
+
     else:                                                               
         print(my_condition)
 
-# For                                                                   #for solo se repite dependiendo de el numero de elemntos con los que vaya a iterar
+# For                                                                   #*for solo se repite dependiendo de el numero de elemntos con los que vaya a iterar
 #                                                                       una vez finalizada la ultima iteracion se termina el loop
 my_list=[27,24,62,52,30,30,17]
 

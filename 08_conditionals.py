@@ -21,14 +21,13 @@ else:                                                                       #y s
 print("La ejecucion continua")                                              #esta linea está fuera del scope                                             
 
 
-                                                                            #toda linea tabulada despues de una condicional se ejecuta
-                                                                            #si se cumple la misma, para sacar un linea del escope
-                                                                            #es necesario borrar el tabulador (pegar la linea a la izquierda)
+                                                                            #*toda linea tabulada despues de una condicion se ejecuta si se cumple la misma
+                                                                            #*para sacar un linea del escope es necesario borrar el tabulador (pegar la linea a la izquierda)
 
 my_string=""                                                               
-if my_string:                                                               #si un string esta vacio"", un if lo toma como False
+if my_string:                                                               #*si un string esta vacio"", un if lo toma como False
     print("Mi cadena de texto está vacia #incorrecta")                                  #y no se ejecuta ninguna accion
 if not my_string:                                                           #para que se cumpla la condicion de un string vacio
-    print("mi cadena de texto está vacia #correcta")                                  #se debe usar --->if not<--- (negativo x negativo = positivo)
+    print("mi cadena de texto está vacia #correcta")                                  #*se debe usar --->if not<--- (negativo x negativo = positivo)
 
 

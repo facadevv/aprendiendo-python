@@ -3,7 +3,7 @@
 my_dict=dict()
 my_other_dict={}
 
-my_other_dict={"Nombre":"ruben","Apellido":"Farias","edad":27,1:"Python"}   #"Nombre":"ruben" es un item del diccionario
+my_other_dict={"Nombre":"ruben","Apellido":"Farias","edad":27,1:"Python"}   #*"Nombre":"ruben" es un item del diccionario
 
 my_dict={                                                                   #otra forma de mostrarlo, mas visual
     "Nombre":"ruben",
@@ -15,9 +15,9 @@ my_dict={                                                                   #otr
 print(my_other_dict)
 print(my_dict)
 
-print(my_dict["Nombre"])                                                    #de esta manera se accede a un valor asociado a una key
+print(my_dict["Nombre"])                                                    #*de esta manera se accede a un valor asociado a una key
 
-my_dict["Nombre"]="Pedro"                                                   #de esa manera se puede cambiar un valor asociado a una key
+my_dict["Nombre"]="Pedro"                                                   #*de esa manera se puede cambiar un valor asociado a una key
 print(my_dict["Nombre"])
 
 my_dict["Calle"]="C. Paseo del cantíl"

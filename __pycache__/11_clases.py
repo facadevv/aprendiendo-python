@@ -17,5 +17,6 @@ my_person.walk()                                                        # y asi 
 my_other_person= Person("ruben", "farias","el triste")                  # se define otro objeto "Persona" utilizando la misma clase y se le otorga la propiedad de .full_name
 print(my_other_person.full_name)                                        
 my_other_person.full_name=("Hector de León (El loco de los perros)")    # se modifica la propiedad full_name de la nueva Persona
-print(my_other_person.full_name)
+print(my_other_person.full_name) 
+
 

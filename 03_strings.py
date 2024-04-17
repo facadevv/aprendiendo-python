@@ -4,11 +4,11 @@ name = "ruben"
 surname = "farias"
 age = 27
 
-print("Mi nombre es %s %s y mi edad es %d" %(name, surname, age))   #para concatenar especificando el tipo de dato (%s para strin(texto)) (%d para int (numero entero))
+print("Mi nombre es %s %s y mi edad es %d" %(name, surname, age))   #*para concatenar especificando el tipo de dato (%s para strin(texto)) (%d para int (numero entero))
 
-print(f"Mi nombre es {name} {surname} y mi edad es {age}")          #para concatenar colocando directamente el objeto 
+print(f"Mi nombre es {name} {surname} y mi edad es {age}")          #*para concatenar colocando directamente el objeto 
 
-                                            #Desempaquetado de caracteres
+                                            #* Desempaquetado de caracteres
 
 language="Python"
 a, b, c, d, e, f = language
@@ -20,7 +20,7 @@ print(d)
 print(e)
 print(f) 
 
-                                                    #Division
+                                                    #* Division
 
 language_slice = language[0:5] #[0:5] Toma en cuenta desde los carcateres desde el 0 hasta el 4, sin contar al 5
 print(language_slice)
@@ -31,7 +31,7 @@ print(language_slice)
 language_slice = language[-2] #[-2] Toma en cuenta el segundo comenzando desde el final
 print(language_slice)
 
-                                                    #Reverse
+                                                    #* Reverse
 
 reversed_language = language[::-1] #[::-1]Ordena los caracteres en reversa 
 print(reversed_language)

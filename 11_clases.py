@@ -1,4 +1,4 @@
-                                                                        ### Classes ###
+                                                                        #* Classes *#
 
 class Person:                                                           ## Aqui def no esta definiendo una funcion, #*def __init__(self, name, ...) es un construtor de clase
     def __init__(self, name, surname, alias="sin alias"):               #* un lugar donde podemos establecer ciertos valores asociados a la clase (persona en este caso)            # Tambien se puede asignar valores por defecto###

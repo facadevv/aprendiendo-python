@@ -1,4 +1,4 @@
-                                        #Functions/Funciones
+                                        #* Functions/Funciones *#
 
 def my_function ():                                                         #*definir funciones no ES mas que CREAR TUS PROPIAS OPERACIONES para trabajar con variables
     print("Esto es una funcion")

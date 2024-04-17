@@ -1,6 +1,6 @@
                                     ###tuples###
 
-                        #la principal diferencia entre las tuplas y las listas es que las tuplas son inmutables
+                        #*la principal diferencia entre las tuplas y las listas es que las tuplas son inmutables
                         
 
 my_tuple= tuple()                   #formas de definar tuplas

@@ -13,10 +13,33 @@ def FizzBuzz():
     try:
         answer=int(input("Please enter a number between 1 and 100:"))
     except:
-        print("you really don´t like folliwing rules right? ;)")
+        print("You really don´t like folliwing rules, right? ;)")
+        print("---------------->Start again<-------------------")
+        try:
+            answer=int(input("Please enter a number between 1 and 100:"))
+        except:
+            print("Really??")
+            print("--->Game Over<---")
+        else:
+            if answer > 0 and answer < 101:
+                print("Thanks!")
+                number=list((range(1,answer+1)))
+                for value in number:
+                    result_3=value / 3 
+                    result_5=value / 5
+                    if result_3 == int(result_3):
+                        number[value-1]=str("Fizz")
+                    elif result_5 == int(result_5):
+                        number[value-1]=str("Buzz")
+                    else:
+                        number[value-1]=str(value)
+                print(number)
+            else:
+                print("You really don´t like folliwing rules, right? ;)")
+                print("--->Game Over<---")
     else:
-        print("gracias!")
-        if answer > 0 and answer < 100:
+        if answer > 0 and answer < 101:
+            print("Thanks!")
             number=list((range(1,answer+1)))
             for value in number:
                 result_3=value / 3 
@@ -27,7 +50,31 @@ def FizzBuzz():
                     number[value-1]=str("Buzz")
                 else:
                     number[value-1]=str(value)
-    print(number)
-
+            print(number)
+        if answer > 101:
+            print("You really don´t like folliwing rules, right? ;)")
+            print("---------------->Start again<-------------------")
+            try:
+                answer=int(input("Please enter a number between 1 and 100:"))
+            except:
+                print("Really??")
+                print("--->Game Over<---")
+            else:
+                if answer > 0 and answer < 101:
+                    print("Thanks!")
+                    number=list((range(1,answer+1)))
+                    for value in number:
+                        result_3=value / 3 
+                        result_5=value / 5
+                        if result_3 == int(result_3):
+                            number[value-1]=str("Fizz")
+                        elif result_5 == int(result_5):
+                            number[value-1]=str("Buzz")
+                        else:
+                            number[value-1]=str(value)
+                    print(number)
+                elif answer > 101:
+                    print("Really??")
+                    print("--->Game Over<---")
 FizzBuzz()
 

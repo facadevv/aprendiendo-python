@@ -18,24 +18,24 @@ def FizzBuzz():
         print("---->Start again<----")
         FizzBuzztry()
     else:
-        if answer > 0 and answer < 101:
+        if answer > 0  and answer < 101:
             print("")
             print("There you go:")
             number=list((range(1,answer+1)))
             for value in number:
-                result_3=value / 3 
-                result_5=value / 5
-                if result_3 == int(result_3) or result_5 == int(result_5):
-                    if result_3 == int(result_3):
+                result_3=value % 3 
+                result_5=value % 5
+                if result_3 == 0 or result_5 == 0:
+                    if result_3 == 0:
                         number[value-1]=str("Fizz")
-                    elif result_5 == int(result_5):
+                    elif result_5 == 0:
                         number[value-1]=str("Buzz")
-                    if result_3 == int(result_3) and result_5 == int(result_5):
+                    if result_3 == 0 and result_5 == 0:
                         number[value-1]=str("FizzBuzz")
                 else:
                     number[value-1]=str(value)
             print(number)
-        elif answer > 100:
+        else:
             print("")
             print("Come on it´s not that hard ;)")
             print("-------->Start again<--------")
@@ -54,15 +54,16 @@ def FizzBuzztry():
             print("There you go:")
             number=list((range(1,answer+1)))
             for value in number:
-                result_3=value / 3 
-                result_5=value / 5
-                if result_3 == int(result_3) or result_5 == int(result_5):
-                    if result_3 == int(result_3):
-                        number[value-1]=str("Fizz")
-                    elif result_5 == int(result_5):
-                        number[value-1]=str("Buzz")
-                    if result_3 == int(result_3) and result_5 == int(result_5):
-                        number[value-1]=str("FizzBuzz")
+                result_3=value % 3 
+                result_5=value % 5
+                if result_3 > 0 or result_5 > 0:
+                    if result_3 == 0 or result_5 == 0:
+                        if result_3 == 0:
+                            number[value-1]=str("Fizz")
+                        elif result_5 == 0:
+                            number[value-1]=str("Buzz")
+                        if result_3 == 0 and result_5 == 0:
+                            number[value-1]=str("FizzBuzz")
                 else:
                     number[value-1]=str(value)
             print(number)
@@ -70,4 +71,9 @@ def FizzBuzztry():
                 print("")
                 print("You really don´t like following rules, right?")
                 print("----------------->Game Over<-----------------")
+
+
+
+
+
 FizzBuzz()

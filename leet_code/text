@@ -1,9 +1,0 @@
-
-if answer != int():
-        try:
-            if answer == int(answer) and answer > 0 and answer < 100:
-                print("correcto")
-            else:
-                print("you really don´t like folliwing rules right?, please just a number between 1 and 100 ;)")
-        except:
-            print(answer)

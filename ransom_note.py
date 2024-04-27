@@ -11,7 +11,7 @@
 
                                                                                                                                                                                                                                                             #
 
-ransom_note=dict()
+
 magazine=dict()
 
 def ransom_check():
@@ -23,6 +23,7 @@ def ransom_check():
             verification="True"
         else:
             verification="False"
+            break
     print(verification)
 
 ransom_check()

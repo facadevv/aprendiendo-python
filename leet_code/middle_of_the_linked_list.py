@@ -45,7 +45,7 @@ class linked_list:
         print("Este programa imprimirá desde el nodo medio de una lista enlazada.")
         while True:
             answer = input("Por favor, ingresa un número, o, presiona f para terminar:")
-            if answer.lower() == "f":
+            if answer == "f" or answer== "F":
                 break
             else:
                 self.insert(answer)

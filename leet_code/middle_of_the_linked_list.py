@@ -42,7 +42,7 @@ class linked_list:
             print(slow_ptr.data)
             slow_ptr = slow_ptr.next
     def inputt(self):
-        print("Este programa devolverá el nodo medio de una lista enlazada.")
+        print("Este programa imprimirá desde el nodo medio de una lista enlazada.")
         while True:
             answer = input("Por favor, ingresa un número, o, presiona f para terminar:")
             if answer.lower() == "f":

@@ -12,7 +12,7 @@
         #Step 5) 2 is even; divide by 2 and obtain 1. 
         #Step 6) 1 is odd; subtract 1 and obtain 0.
 
-class Steps_to_Zero():
+def Steps_to_Zero():
 
     answer=int(input("Please enter a number: "))
     answer_init=answer

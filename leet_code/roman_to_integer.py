@@ -35,7 +35,7 @@ class linked_list:
         print("-------------------------------")       
         while answer== answer.lower():
             answer=answer.upper()
-            self.print_in_box("Roman numbers are written with CAPITAL LETTERS, but don´t worry... I´ve already done the conversion for you, that´s why we´re here for... ins´t it?  ;)")
+            self.print_in_box(f"Roman numbers are written with CAPITAL LETTERS, but don´t worry... I´ve already done the conversion for you, that´s why we´re here for... ins´t it?---> [{answer}] ;)")
             import re
             regex=r"^(?=[MDCLXVI])M{0,3}(CM|CD|D?C{0,3})(XC|XL|L?X{0,3})(IX|IV|V?I{0,3})$"
             rules=re.match(regex,answer)
